@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
 
-    // Pull values from the form
     const formData = {
       name: document.querySelector('[name="name"]').value,
       email: document.querySelector('[name="email"]').value,
@@ -27,8 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (response.ok) {
         form.reset();
-
-        // Show success alert
         successMessage.classList.remove("d-none", "fade-out");
         successMessage.classList.add("fade", "show");
 
