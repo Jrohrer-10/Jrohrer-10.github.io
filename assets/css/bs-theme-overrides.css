@@ -1,0 +1,39 @@
+:root, [data-bs-theme=light] {
+  --bs-primary: #777263;
+  --bs-primary-rgb: 119,114,99;
+  --bs-primary-text-emphasis: #302E28;
+  --bs-primary-bg-subtle: #E4E3E0;
+  --bs-primary-border-subtle: #C9C7C1;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #777263;
+  --bs-btn-border-color: #777263;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #656154;
+  --bs-btn-hover-border-color: #5F5B4F;
+  --bs-btn-focus-shadow-rgb: 235,234,232;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #5F5B4F;
+  --bs-btn-active-border-color: #59564A;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #777263;
+  --bs-btn-disabled-border-color: #777263;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #777263;
+  --bs-btn-border-color: #777263;
+  --bs-btn-focus-shadow-rgb: 119,114,99;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #777263;
+  --bs-btn-hover-border-color: #777263;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #777263;
+  --bs-btn-active-border-color: #777263;
+  --bs-btn-disabled-color: #777263;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #777263;
+}
+
